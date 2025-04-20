@@ -1,0 +1,31 @@
+#messages {
+    flex: 1;
+    overflow: scroll;
+}
+
+.message>div {
+    padding: 6px 4px;
+    background-color: white;
+    border-radius: 6px;
+    margin: 4px 0;
+    min-width: 100px;
+    width: fit-content;
+}
+
+.message.sended {
+    display: flex;
+    justify-content: end;
+}
+
+.message.received {
+    margin-right: 30px;
+}
+
+.message.sended {
+    margin-left: 30px;
+    text-align: end;
+}
+
+.log {
+    text-align: center;
+}

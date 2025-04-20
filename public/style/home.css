@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+#player-form {
+    height: 30vh;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+#player-name {
+    border-style: none;
+    border-radius: 4px;
+    height: 30px;
+    font-size: large;
+    padding: 2px 4px;
+}
+
+#player-name:focus {
+    outline: none;
+}
+
+.input-group>button {
+    cursor: pointer;
+    background: #333;
+    border: none;
+    padding: 0 1rem;
+    margin: 0.25rem;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+    height: 30px;
+}

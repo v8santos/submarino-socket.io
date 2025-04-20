@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    color: white;
+}
+
+.button {
+    border-radius: 6px;
+    background-color: rgb(236, 250, 255);
+    padding: 10px 16px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+}
+
+.button:hover {
+    filter: brightness(110%);
+}
+
+#submariner-form {
+    padding: 10px;
+    display: flex;
+    height: 3rem;
+    backdrop-filter: blur(10px);
+    align-items: center;
+}
+
+#submariner-name {
+    flex-grow: 1;
+    border-style: none;
+    border-radius: 4px;
+    font-size: large;
+    height: 100%;
+    padding: 2px 4px;
+}
+
+#submariner-name:focus {
+    outline: none;
+}
+
+#submariner-form>button {
+    cursor: pointer;
+    background: #333;
+    border: none;
+    padding: 0 1rem;
+    margin: 0.25rem;
+    border-radius: 3px;
+    outline: none;
+    color: #fff;
+    height: 100%;
+}
