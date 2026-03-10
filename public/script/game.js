@@ -49,6 +49,14 @@ function addSubmariners(data) {
 function makeVote(target, submariner) {
     target.focus();
 
+    document.getElementById('submariners').childNodes.forEach(el => {
+        if (el.classList.contains('checked')) {
+            el.classList.remove('checked')
+        }
+    })
+
+    target.classList.add('checked');
+
     socket.emit("vote", {
         submariner,
         playerId: localStorage.getItem("playerId"),

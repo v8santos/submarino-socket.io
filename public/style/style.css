@@ -48,3 +48,7 @@ h1 {
     color: #fff;
     height: 100%;
 }
+
+#submariners .checked {
+    background-color: rgb(122, 6, 2);
+}
